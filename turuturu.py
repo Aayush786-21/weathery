@@ -9,7 +9,7 @@ def home():
 
 @app.route('/get_weather')
 def get_weather_route():
-    city = request.args.get('city', 'Kathmandu')  # Default to Kathmandu if city parameter is not provided
+    city = request.args.get('city', 'Kathmandu')  # Default is Kathmandu
     weather, temperature = get_weather(city)
     if weather and temperature:
         return jsonify({'success': True, 'weather': weather, 'temperature': temperature})
