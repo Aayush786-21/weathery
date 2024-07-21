@@ -15,7 +15,6 @@ A simple Flask-based web application that fetches and displays live weather info
 
     ```bash
     git clone https://github.com/Aayush786-21/weathery.git
-    cd your_project
     ```
 
 2. **Create and activate a virtual environment** (optional but recommended):
